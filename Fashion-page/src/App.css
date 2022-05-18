@@ -1,0 +1,142 @@
+.App{
+  
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.92),
+    rgba(255, 255, 255, 0.913)
+    ),url('./assets/muie.svg');
+    
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.conatiner-header{
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  color: #2A2A2A;
+  font-size: 25px;
+  width: 80%;
+  cursor: pointer;
+}
+
+
+nav{
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  gap: 25px;
+}
+
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  color: #2A2A2A;
+  font-weight: bold;
+  position: relative;
+}
+
+.text::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #1C4D78;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-0%);
+
+
+}
+
+.cart{
+  color: #2A2A2A;
+  font-size: 30px;
+ width: 20%;
+ cursor: pointer;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+main img{
+  flex: 1;
+  height: 750px;
+  width: auto;
+ 
+
+}
+
+article{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  
+  
+}
+
+article h1{
+  text-align: left;
+  color: #2A2A2A;
+  width: 50%;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.colorTxt {
+  color: #1C4D78;
+}
+article div{
+  width: auto;
+  height: auto;
+}
+
+.cart--btn{
+  width: 50%;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.cart--btn button{
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1C4D78;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 15px;
+}
+
+.cart--btn button img{
+width: 32px;
+height: 32px;
+
+
+}
